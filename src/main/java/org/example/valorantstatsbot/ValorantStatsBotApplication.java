@@ -16,7 +16,7 @@ public class ValorantStatsBotApplication {
                 .setActivity(Activity.playing("Type !ping"))
                 .addEventListeners(new BotListener())
                 .build();
-        SpringApplication.run(ValorantStatsBotApplication.class, args);
+
         SpringApplication.run(ValorantStatsBotApplication.class, args);
     }
 
